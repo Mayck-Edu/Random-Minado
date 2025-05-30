@@ -2,7 +2,7 @@
 
 Um clássico jogo de Campo Minado implementado em HTML, CSS e JavaScript. Desafie-se a encontrar todas as células seguras sem detonar as bombas!
 
-https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3lsd2lkbmFydHRmeXpxeTlseWdzZnhpYXpsbG45bGNsdjMyeHMzciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d2Z7NqwF3yImFNHW/giphy.gif
+![GIF do Campo Minado](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3lsd2lkbmFydHRmeXpxeTlseWdzZnhpYXpsbG45bGNsdjMyeHMzciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d2Z7NqwF3yImFNHW/giphy.gif)
 
 ## Tecnologias Usadas
 
