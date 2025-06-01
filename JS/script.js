@@ -1,4 +1,6 @@
 let linhas, colunas, bombas, matriz, tabela;
+
+
 function gerarMatriz(l, c) {
     matriz = [];
     for (let i = 0; i < l; i++) {
@@ -23,8 +25,11 @@ function gerarTabela(l, c) {
 function mostrarMatriz() {
     for (let i = 0; i < linhas; i++) {
         for (let j = 0; j < colunas; j++) {
+
+
             if (matriz[i][j] === -1) {
                 tabela.rows[i].cells[j].innerHTML = "&#128163;";
+                
             } else {
                 tabela.rows[i].cells[j].innerHTML = matriz[i][j];
             }
@@ -32,10 +37,17 @@ function mostrarMatriz() {
     }
 }
 
+
+
 function gerarBombas() {
     for (let i = 0; i < bombas;) {
+
+
         let linha = Math.floor((Math.random() * linhas));
         let coluna = Math.floor((Math.random() * colunas));
+
+
+
         if (matriz[linha][coluna] === 0) {
             matriz[linha][coluna] = -1;
             i++;
